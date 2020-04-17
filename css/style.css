@@ -3674,7 +3674,11 @@ body {
   background-repeat: no-repeat;
   background-position: top left;
   background-size: cover;
-  height: 100%;
+  height: auto;
+}
+
+.header .container {
+  overflow: hidden;
 }
 
 .header__inner {
