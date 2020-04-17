@@ -3674,7 +3674,7 @@ body {
   background-repeat: no-repeat;
   background-position: top left;
   background-size: cover;
-  height: auto;
+  min-height: 100vh;
 }
 
 .header .container {
