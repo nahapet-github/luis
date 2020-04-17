@@ -1,0 +1,14 @@
+.header {
+    background-color: #E0E0E0;
+    background-image: url("../image/header/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    height: 100%;
+    &__inner {
+        padding-top: 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+}

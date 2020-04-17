@@ -1,0 +1,44 @@
+.btn {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: inherit;
+    padding: 1rem 2rem;
+    display: block;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 0 0.8rem;
+    white-space: nowrap;
+    &-white {
+        background-color: #fff;
+        color: inherit;
+        box-shadow: 0 5px 10px rgba($color-text, .5);
+        transition: background-color 0.2s linear, color 0.2s linear;
+    }
+    &-white:hover {
+        background-color: $color-text;
+        color: #fff;        
+    }
+    &-transparent {
+        border: 1px solid $color-text;
+        background-color: transparent;
+    }
+    &-transparent:hover {
+        background-color: #fff;
+        transition: background-color 0.2s linear;
+    }
+}
+
+@media (max-width: 767px) {
+    .btn {
+        padding: 0.6rem 1.1rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .btn {
+        max-width: 70%;
+        margin: 0 auto 0.8rem;
+    }
+}
