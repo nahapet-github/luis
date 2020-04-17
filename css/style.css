@@ -3854,6 +3854,9 @@ body {
   .content__caption {
     align-items: center;
   }
+  .content-picture {
+    margin-bottom: 1rem;
+  }
 }
 
 .btn {
