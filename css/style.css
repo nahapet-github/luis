@@ -3854,6 +3854,12 @@ body {
   .content__caption {
     align-items: center;
   }
+  .content__caption-align {
+    text-align: center;
+  }
+  .content__caption-title {
+    margin-left: 0;
+  }
   .content-picture {
     margin-bottom: 2rem;
   }

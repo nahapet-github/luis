@@ -83,6 +83,12 @@
     .content {
         &__caption {
             align-items: center;
+            &-align {
+                text-align: center;
+            }
+            &-title {
+                margin-left: 0;
+            }
         }
         &-picture {
             margin-bottom: 2rem;
