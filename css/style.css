@@ -3855,7 +3855,7 @@ body {
     align-items: center;
   }
   .content-picture {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 }
 
@@ -3904,6 +3904,6 @@ body {
 @media (max-width: 575px) {
   .btn {
     max-width: 70%;
-    margin: 0 auto 1rem;
+    margin: 0 auto 0.8rem;
   }
 }
