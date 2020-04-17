@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /* asap-regular - latin */
 @font-face {
+  font-display: swap;
   font-family: 'Asap';
   font-style: normal;
   font-weight: 400;
