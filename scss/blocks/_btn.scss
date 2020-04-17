@@ -26,7 +26,8 @@
     }
     &-transparent:hover {
         background-color: #fff;
-        transition: background-color 0.2s linear;
+        box-shadow: 0 5px 10px rgba($color-text, .5);
+        transition: background-color 0.2s linear, box-shadow 0.2s linear;
     }
 }
 
