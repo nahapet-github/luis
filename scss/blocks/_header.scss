@@ -16,3 +16,13 @@
         align-items: flex-start;
     }
 }
+@media (max-width: 767px) {
+    .header {
+        padding-bottom: 10px;
+    }
+}
+@media (max-width: 575px) {
+    .header {
+        padding-bottom: 0;
+    }
+}
