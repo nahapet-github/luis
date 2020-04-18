@@ -3691,8 +3691,7 @@ section {
   background-repeat: no-repeat;
   background-position: top left;
   background-size: cover;
-  min-height: auto;
-  padding-bottom: 50px;
+  min-height: 100vh;
 }
 
 .header .container {
@@ -3916,7 +3915,7 @@ section {
 
 .btn-transparent:hover {
   background-color: #fff;
-  box-shadow: 0 5px 10px rgba(77, 77, 77, 0.5);
+  box-shadow: 0 0 10px #4d4d4d;
   transition: background-color 0.2s linear, box-shadow 0.2s linear;
 }
 
