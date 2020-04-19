@@ -1,0 +1,17 @@
+.portfolio {
+    background-color: #f5f5f5;
+}
+.portfolio__picture {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 30px;
+    transition: box-shadow 0.3s linear;
+        &-image {
+            width: 100%;
+            height: auto;
+        }
+    &:hover {
+        box-shadow: 0 5px 10px rgba($color-text, .9);
+    }
+}
