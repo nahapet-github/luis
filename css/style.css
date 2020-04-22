@@ -4246,3 +4246,9 @@ section {
     line-height: 1.4;
   }
 }
+
+@media (max-width: 576px) {
+  .reviews__content {
+    padding: 20px 10px;
+  }
+}
