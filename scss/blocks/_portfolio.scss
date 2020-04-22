@@ -15,3 +15,11 @@
         box-shadow: 0 5px 10px rgba($color-text, .9);
     }
 }
+
+@media (max-width: 767px) {
+    .portfolio__picture {
+        max-width: 360px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+}

@@ -4158,6 +4158,14 @@ section {
   box-shadow: 0 5px 10px rgba(77, 77, 77, 0.9);
 }
 
+@media (max-width: 767px) {
+  .portfolio__picture {
+    max-width: 360px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+}
+
 .reviews__content {
   display: flex;
   justify-content: center;
