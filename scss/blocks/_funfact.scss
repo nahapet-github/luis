@@ -1,0 +1,44 @@
+.funfact {
+    background-color: #f6f6f6;
+    .container {
+        text-transform: uppercase;
+    }
+    &__content {
+        padding: 60px 0 60px;
+        text-align: center;
+        &-image {
+            max-width: 100%;
+            width: 50px;
+            height: auto;
+            margin-bottom: 1rem;
+        }
+        &-number {
+            font-weight: 500;
+            font-size: 22px;
+            margin-bottom: 5px;
+        }
+        &-name {
+            font-size: 18px;
+        }
+    }
+}
+
+
+@media (max-width: 767px) {
+    .funfact__content {
+        &-number {
+            font-size: 18px;
+        }
+        &-name {
+            font-size: 15px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .funfact {
+        &__content {
+        padding: 20px 0 20px;
+    }
+}
+}

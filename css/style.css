@@ -4252,3 +4252,48 @@ section {
     padding: 10px;
   }
 }
+
+.funfact {
+  background-color: #f6f6f6;
+}
+
+.funfact .container {
+  text-transform: uppercase;
+}
+
+.funfact__content {
+  padding: 60px 0 60px;
+  text-align: center;
+}
+
+.funfact__content-image {
+  max-width: 100%;
+  width: 50px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.funfact__content-number {
+  font-weight: 500;
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.funfact__content-name {
+  font-size: 18px;
+}
+
+@media (max-width: 767px) {
+  .funfact__content-number {
+    font-size: 18px;
+  }
+  .funfact__content-name {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 575px) {
+  .funfact__content {
+    padding: 20px 0 20px;
+  }
+}
