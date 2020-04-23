@@ -13,6 +13,10 @@
     &__form {
         margin-bottom: 30px;        
     }
+    & p {
+        margin-left: -15px;
+        white-space: nowrap;
+    } 
 }
 .footer__form-input {
     width: 100%;
@@ -36,7 +40,6 @@
     }
     &::placeholder {
         font-weight: 500;
-        
     }
 
 }
@@ -45,16 +48,15 @@
     border-top: 1px solid #fff;
     color:#fff;
     padding: 25px 0;
-
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .footer__social {
     display: flex;
     margin-left: -25px;
     & a {
-        
-        
-        
         &:nth-child(1n+1) {
             margin-left: 10px;
         }
@@ -65,10 +67,10 @@
         fill: #000;
         padding: 0 5px;
         background-color: #ffffff;
+        transition: fill 0.3s linear, background-color 0.3s linear ;
         &:hover {
             fill:#fff;
             background-color: #0985bf;
-
         }
     }
 }
