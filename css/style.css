@@ -3673,6 +3673,10 @@ section {
   padding: 100px 0;
 }
 
+section.footer {
+  padding: 100px 0 0;
+}
+
 @media (max-width: 991.98px) {
   section {
     padding: 50px 0;
@@ -4296,4 +4300,81 @@ section {
   .funfact__content {
     padding: 20px 0 20px;
   }
+}
+
+.footer {
+  background-color: #616163;
+  background-image: url("../image/footer/footer-bg.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+}
+
+.footer .title {
+  color: #f0f0f0;
+}
+
+.footer .title::before {
+  background-color: #f0f0f0;
+}
+
+.footer__form {
+  margin-bottom: 30px;
+}
+
+.footer__form-input {
+  width: 100%;
+  height: 45px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  padding-left: 10px;
+  border-radius: 3px;
+}
+
+.footer__form-input:hover {
+  border: 1px solid royalblue;
+}
+
+.footer__form-textarea {
+  width: 100%;
+  margin-bottom: 30px;
+  height: 207px;
+  padding: 10px 0 0 10px;
+  border-radius: 3px;
+}
+
+.footer__form-textarea:hover {
+  border: 1px solid royalblue;
+}
+
+.footer__form-textarea::placeholder {
+  font-weight: 500;
+}
+
+.footer__contact {
+  border-top: 1px solid #fff;
+  color: #fff;
+  padding: 25px 0;
+}
+
+.footer__social {
+  display: flex;
+  margin-left: -25px;
+}
+
+.footer__social a:nth-child(1n+1) {
+  margin-left: 10px;
+}
+
+.footer__social-icon {
+  width: 30px;
+  height: 30px;
+  fill: #000;
+  padding: 0 5px;
+  background-color: #ffffff;
+}
+
+.footer__social-icon:hover {
+  fill: #fff;
+  background-color: #0985bf;
 }
